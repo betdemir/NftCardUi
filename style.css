@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.75);
+}
+
+.banner{
+    width: 243px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    align-self: center;
+}
+
+h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.desc{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.textWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+.textWrapper>div{
+    display: flex;
+    align-items: center;
+}
+
+.textWrapper>div>img{
+    margin-right: 4px;
+}
+
+.ethText{
+    color: hsl(178, 100%, 50%) !important;
+}
+
+hr{
+    height:1px;
+    border-width:0;
+    background-color: hsl(215, 32%, 27%);
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer>img{
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.footer>p>span{
+    color: hsl(215, 51%, 70%);
+}
